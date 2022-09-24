@@ -91,18 +91,16 @@ export const USER_CONFIG = {
       ]
     },
     {
-      name: "乖乖",
-      id: "oHoLa6bUVmf8PMiN5fZLiyGeGjc0",
-      useTemplateId: "o05ed2KWxONM8IB6XmppzKx46iM61qf-D8pW6yzx8nY",
-      province: "陕西",
-      city: "秦都区",
-      horoscopeDate: '9-1',
-      horoscopeDateType: '明日',
+      name: "老婆1",
+      id: "",
+      useTemplateId: "",
+      province: "",
+      city: "",
+      horoscopeDate: '',
+      horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
-      festivals: [ {"type": "生日", "name": "宝子", "year": "2001", "date": "09-01"},
-        {"type": "节日", "name": "在一起纪念日", "year": "2018", "date": "04-28"}],
-      customizedDateList: [// 在一起的日子
-        {"keyword": "love_day", date: "2018-04-28"},]
+      festivals: [ ],
+      customizedDateList: []
     },
     {
       name: "老婆2",
