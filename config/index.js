@@ -51,7 +51,7 @@ export const USER_CONFIG = {
   
   // 每日一言的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 "动画"
-  LITERARY_PREFERENCE: "",
+  LITERARY_PREFERENCE: "动画",
   
   
   /**
@@ -68,7 +68,7 @@ export const USER_CONFIG = {
       // 所在省份
       province: "陕西",
       // 所在城市
-      city: "秦都区",
+      city: "咸阳",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '9-1',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -78,10 +78,10 @@ export const USER_CONFIG = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "宝贝", "year": "2001", "date": "07-14"},
+        {"type": "*生日", "name": "美丽可爱亲亲宝贝", "year": "2001", "date": "07-14"},
         {"type": "节日", "name": "在一起纪念日", "year": "2018", "date": "04-28"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "宝子", "year": "2001", "date": "09-01"},
+        {"type": "生日", "name": "美丽可爱亲亲宝子", "year": "2001", "date": "09-01"},
         {"type": "节日", "name": "在一起纪念日", "year": "2018", "date": "04-28"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -158,7 +158,7 @@ export const USER_CONFIG = {
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
   PROVINCE: "陕西",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "秦都区",
+  CITY: "咸阳",
   
   /** 重要节日相关 */
   
